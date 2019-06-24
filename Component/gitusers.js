@@ -13,7 +13,7 @@ export default class GitUser extends React.Component {
      
      <ul>
       { this.state.users.map(user => 
-        <li>{user.login}</li>)
+        <li>User Id: {user.id} -  Name:{user.login}</li>)
       }
      </ul>
    )

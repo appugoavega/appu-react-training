@@ -6,7 +6,10 @@ import './style.css';
 class App extends Component {
   render() {
     return (
-     <GitUser/>
+      <div>
+      <h2>Online Git users list:</h2>
+        <GitUser/>
+     </div>
     );
   }
 }
